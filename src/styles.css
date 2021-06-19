@@ -1,0 +1,28 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Ubuntu, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f3f6;
+}
+
+.site-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-page {
+  display: flex;
+  flex: 1;
+  margin: auto 20px;
+}

@@ -1,0 +1,23 @@
+.filter-panel {
+  background: #fff;
+  box-shadow: 0 1px 8px 0 rgb(0 0 0 / 6%);
+  flex: 0 0 400px;
+  padding: 15px;
+  height: 100%;
+  margin: 0 10px;
+}
+
+.label {
+  margin: 10px 0;
+}
+
+.reset {
+  margin: 15px auto;
+  text-align: center;
+}
+
+.reset button {
+  padding: 10px;
+  background: none;
+  cursor: pointer;
+}
